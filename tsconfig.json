@@ -1,0 +1,3 @@
+{
+  "extends": "@workerSmtp/config/tsconfig.base.json"
+}

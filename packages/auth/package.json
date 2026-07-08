@@ -1,0 +1,24 @@
+{
+  "name": "@workerSmtp/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@workerSmtp/db": "workspace:*",
+    "@workerSmtp/env": "workspace:*",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@workerSmtp/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}
