@@ -2,8 +2,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="../../apps/web/public/Worker_SMTP_dark.png">
-    <img alt="worker SMTP" src="../../apps/web/public/Worker_SMTP_light.png" width="80" height="80">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bazileros/workerSmtp/main/apps/web/public/Worker_SMTP_dark.png">
+    <img alt="worker SMTP" src="https://raw.githubusercontent.com/bazileros/workerSmtp/main/apps/web/public/Worker_SMTP_light.png" width="80" height="80">
   </picture>
 </p>
 
