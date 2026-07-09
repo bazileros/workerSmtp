@@ -52,6 +52,7 @@
     "@workerSmtp/env": "workspace:*",
     "dotenv": "catalog:",
     "sanitize-html": "catalog:",
+    "workerSmtp": ".",
     "zod": "catalog:"
   },
   "devDependencies": {
