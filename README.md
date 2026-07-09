@@ -13,6 +13,24 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/bazileros/workerSmtp/stargazers">
+    <img src="https://img.shields.io/github/stars/bazileros/workerSmtp?style=flat&label=Stars&color=818cf8" alt="GitHub stars">
+  </a>
+  <a href="https://github.com/bazileros/workerSmtp/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/bazileros/workerSmtp?style=flat&label=License&color=818cf8" alt="License">
+  </a>
+  <a href="https://github.com/bazileros/workerSmtp/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/bazileros/workerSmtp/ci.yml?style=flat&label=CI&color=818cf8" alt="CI">
+  </a>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat&logo=cloudflare&logoColor=white" alt="Cloudflare Workers">
+  <img src="https://img.shields.io/badge/Hono-E36002?style=flat&logo=hono&logoColor=white" alt="Hono">
+  <img src="https://img.shields.io/badge/Drizzle-7B8AFB?style=flat&logo=drizzle&logoColor=white" alt="Drizzle">
+</p>
+
+<p align="center">
   <a href="#quick-start">Quick Start</a> •
   <a href="#packages">Packages</a> •
   <a href="#sending-an-email">Send Email</a> •
