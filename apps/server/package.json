@@ -17,8 +17,10 @@
     "@workerSmtp/env": "workspace:*",
     "better-auth": "catalog:",
     "dotenv": "catalog:",
+    "drizzle-orm": "^0.45.2",
     "evlog": "^2.19.2",
     "hono": "catalog:",
+    "worker-mailer": "^1.2.1",
     "zod": "catalog:"
   },
   "devDependencies": {

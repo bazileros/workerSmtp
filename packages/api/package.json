@@ -1,29 +1,32 @@
 {
-  "name": "@workerSmtp/api",
-  "type": "module",
-  "exports": {
-    ".": {
-      "default": "./src/index.ts"
-    },
-    "./*": {
-      "default": "./src/*.ts"
-    }
-  },
-  "scripts": {},
-  "dependencies": {
-    "@orpc/client": "catalog:",
-    "@orpc/openapi": "catalog:",
-    "@orpc/server": "catalog:",
-    "@orpc/zod": "catalog:",
-    "@workerSmtp/auth": "workspace:*",
-    "@workerSmtp/db": "workspace:*",
-    "@workerSmtp/env": "workspace:*",
-    "dotenv": "catalog:",
-    "zod": "catalog:"
-  },
-  "devDependencies": {
-    "@workerSmtp/config": "workspace:*",
-    "hono": "catalog:",
-    "typescript": "catalog:"
-  }
+	"name": "@workerSmtp/api",
+	"type": "module",
+	"exports": {
+		".": {
+			"default": "./src/index.ts"
+		},
+		"./*": {
+			"default": "./src/*.ts"
+		}
+	},
+	"scripts": {},
+	"dependencies": {
+		"@orpc/client": "catalog:",
+		"@orpc/openapi": "catalog:",
+		"@orpc/server": "catalog:",
+		"@orpc/zod": "catalog:",
+		"@workerSmtp/auth": "workspace:*",
+		"@workerSmtp/db": "workspace:*",
+		"@workerSmtp/env": "workspace:*",
+		"dotenv": "catalog:",
+		"drizzle-orm": "^0.45.2",
+		"sanitize-html": "catalog:",
+		"zod": "catalog:"
+	},
+	"devDependencies": {
+		"@workerSmtp/config": "workspace:*",
+		"hono": "catalog:",
+		"typescript": "catalog:",
+		"@types/sanitize-html": "catalog:"
+	}
 }

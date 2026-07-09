@@ -11,10 +11,12 @@
   },
   "scripts": {},
   "dependencies": {
+    "@better-auth/api-key": "^1.6.23",
     "@workerSmtp/db": "workspace:*",
     "@workerSmtp/env": "workspace:*",
     "better-auth": "catalog:",
     "dotenv": "catalog:",
+    "drizzle-orm": "^0.45.2",
     "zod": "catalog:"
   },
   "devDependencies": {
