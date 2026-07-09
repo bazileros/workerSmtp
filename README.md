@@ -40,6 +40,14 @@
 
 ---
 
+## Preview
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bazileros/workerSmtp/main/apps/web/public/showcase1.png" alt="worker SMTP Dashboard" width="800" style="border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.15);">
+  <br />
+  <em>The operator dashboard — deliveries, templates, profiles, and API key management</em>
+</p>
+
 ## Overview
 
 worker SMTP is a full-stack internal service for sending emails through SMTP relays. It provides a REST API for callers, an admin dashboard for operators, and handles queueing, retries, and delivery tracking.
